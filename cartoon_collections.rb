@@ -16,8 +16,8 @@ def long_planeteer_calls(long_words)
   end
 end
 
-def find_the_cheese(array)
-  array.find do |cheese|
+def find_the_cheese(gross)
+  gross.find do |cheese|
     cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
   end
 end
